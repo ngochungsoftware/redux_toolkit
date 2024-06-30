@@ -44,3 +44,11 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+Start project:
+
+yarn create react-app old-local-blog --template typescript  
+yarn add -D prettier eslint-plugin-prettier eslint-config-prettier
+yarn add tailwindcss postcss autoprefixer
+npx tailwindcss init -p  
+yarn add -D prettier-plugin-tailwindcss
